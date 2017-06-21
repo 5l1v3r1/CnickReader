@@ -7,12 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AudioJack.h"
 
-@interface ViewController : UIViewController<ACRAudioJackReaderDelegate>
-
-@property ACRAudioJackReader *reader;
-@property ACRDukptReceiver *dukptReceiver;
+@interface ViewController : UIViewController
 
 @end
 

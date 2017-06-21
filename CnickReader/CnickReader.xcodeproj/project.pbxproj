@@ -7,36 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B702F6ED1EF9A03100A8ECD8 /* libAudioJack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B702F6EC1EF9A03100A8ECD8 /* libAudioJack.a */; };
-		B702F6EF1EF9A23300A8ECD8 /* dummy.mm in Sources */ = {isa = PBXBuildFile; fileRef = B702F6EE1EF9A23300A8ECD8 /* dummy.mm */; };
-		B702F6F21EF9A66800A8ECD8 /* AJDHex.m in Sources */ = {isa = PBXBuildFile; fileRef = B702F6F11EF9A66800A8ECD8 /* AJDHex.m */; };
+		92155CFA1EFA763600897F0C /* FloJackConnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 92155CF41EFA763600897F0C /* FloJackConnected150x150.png */; };
+		92155CFB1EFA763600897F0C /* FloJackDisconnected150x150.png in Resources */ = {isa = PBXBuildFile; fileRef = 92155CF51EFA763600897F0C /* FloJackDisconnected150x150.png */; };
+		92155CFC1EFA763600897F0C /* libSDKClasses.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92155CF61EFA763600897F0C /* libSDKClasses.a */; };
+		92155CFD1EFA763600897F0C /* README_swift.md in Sources */ = {isa = PBXBuildFile; fileRef = 92155CF71EFA763600897F0C /* README_swift.md */; };
+		92155CFE1EFA763600897F0C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 92155CF81EFA763600897F0C /* README.md */; };
+		92155CFF1EFA763600897F0C /* ScanSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 92155CF91EFA763600897F0C /* ScanSound.caf */; };
+		92155D011EFA769B00897F0C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92155D001EFA769B00897F0C /* MediaPlayer.framework */; };
 		B716F86E1EF9926200297DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B716F86D1EF9926200297DCB /* main.m */; };
 		B716F8711EF9926200297DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B716F8701EF9926200297DCB /* AppDelegate.m */; };
 		B716F8741EF9926200297DCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B716F8731EF9926200297DCB /* ViewController.m */; };
 		B716F8771EF9926200297DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B716F8751EF9926200297DCB /* Main.storyboard */; };
 		B716F8791EF9926200297DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B716F8781EF9926200297DCB /* Assets.xcassets */; };
 		B716F87C1EF9926200297DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B716F87A1EF9926200297DCB /* LaunchScreen.storyboard */; };
-		B79F8CA01EF99A74005A61A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F8C9F1EF99A74005A61A7 /* AudioToolbox.framework */; };
 		B79F8CA21EF99A83005A61A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79F8CA11EF99A83005A61A7 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B702F6E01EF9A03100A8ECD8 /* ACRAesTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAesTrackData.h; sourceTree = "<group>"; };
-		B702F6E11EF9A03100A8ECD8 /* ACRAudioJackReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAudioJackReader.h; sourceTree = "<group>"; };
-		B702F6E21EF9A03100A8ECD8 /* ACRCRC16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCRC16.h; sourceTree = "<group>"; };
-		B702F6E31EF9A03100A8ECD8 /* ACRDukptReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptReceiver.h; sourceTree = "<group>"; };
-		B702F6E41EF9A03100A8ECD8 /* ACRDukptTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptTrackData.h; sourceTree = "<group>"; };
-		B702F6E51EF9A03100A8ECD8 /* ACRResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRResult.h; sourceTree = "<group>"; };
-		B702F6E61EF9A03100A8ECD8 /* ACRStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRStatus.h; sourceTree = "<group>"; };
-		B702F6E71EF9A03100A8ECD8 /* ACRTrack1Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack1Data.h; sourceTree = "<group>"; };
-		B702F6E81EF9A03100A8ECD8 /* ACRTrack2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack2Data.h; sourceTree = "<group>"; };
-		B702F6E91EF9A03100A8ECD8 /* ACRTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrackData.h; sourceTree = "<group>"; };
-		B702F6EA1EF9A03100A8ECD8 /* AudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJack.h; sourceTree = "<group>"; };
-		B702F6EB1EF9A03100A8ECD8 /* AudioJackErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJackErrors.h; sourceTree = "<group>"; };
-		B702F6EC1EF9A03100A8ECD8 /* libAudioJack.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAudioJack.a; sourceTree = "<group>"; };
-		B702F6EE1EF9A23300A8ECD8 /* dummy.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = dummy.mm; sourceTree = "<group>"; };
-		B702F6F01EF9A66800A8ECD8 /* AJDHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJDHex.h; sourceTree = "<group>"; };
-		B702F6F11EF9A66800A8ECD8 /* AJDHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJDHex.m; sourceTree = "<group>"; };
+		92155CBA1EFA763600897F0C /* ABDHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDHex.h; sourceTree = "<group>"; };
+		92155CBB1EFA763600897F0C /* ABTAcr1255uj1Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAcr1255uj1Reader.h; sourceTree = "<group>"; };
+		92155CBC1EFA763600897F0C /* ABTAcr3901us1Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTAcr3901us1Reader.h; sourceTree = "<group>"; };
+		92155CBD1EFA763600897F0C /* ABTBluetoothReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTBluetoothReader.h; sourceTree = "<group>"; };
+		92155CBE1EFA763600897F0C /* ABTBluetoothReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTBluetoothReaderManager.h; sourceTree = "<group>"; };
+		92155CBF1EFA763600897F0C /* ABTError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABTError.h; sourceTree = "<group>"; };
+		92155CC01EFA763600897F0C /* ACRAesTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAesTrackData.h; sourceTree = "<group>"; };
+		92155CC11EFA763600897F0C /* ACRAudioJackReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRAudioJackReader.h; sourceTree = "<group>"; };
+		92155CC21EFA763600897F0C /* ACRCRC16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCRC16.h; sourceTree = "<group>"; };
+		92155CC31EFA763600897F0C /* ACRDukptReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptReceiver.h; sourceTree = "<group>"; };
+		92155CC41EFA763600897F0C /* ACRDukptTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRDukptTrackData.h; sourceTree = "<group>"; };
+		92155CC51EFA763600897F0C /* ACRResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRResult.h; sourceTree = "<group>"; };
+		92155CC61EFA763600897F0C /* ACRStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRStatus.h; sourceTree = "<group>"; };
+		92155CC71EFA763600897F0C /* ACRTrack1Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack1Data.h; sourceTree = "<group>"; };
+		92155CC81EFA763600897F0C /* ACRTrack2Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrack2Data.h; sourceTree = "<group>"; };
+		92155CC91EFA763600897F0C /* ACRTrackData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRTrackData.h; sourceTree = "<group>"; };
+		92155CCA1EFA763600897F0C /* AcsAjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcsAjReader.h; sourceTree = "<group>"; };
+		92155CCB1EFA763600897F0C /* ACSBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACSBluetooth.h; sourceTree = "<group>"; };
+		92155CCC1EFA763600897F0C /* AcsBtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcsBtReader.h; sourceTree = "<group>"; };
+		92155CCD1EFA763600897F0C /* AudioJack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJack.h; sourceTree = "<group>"; };
+		92155CCE1EFA763600897F0C /* AudioJackErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioJackErrors.h; sourceTree = "<group>"; };
+		92155CCF1EFA763600897F0C /* BleTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleTags.h; sourceTree = "<group>"; };
+		92155CD01EFA763600897F0C /* DUKPT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUKPT.h; sourceTree = "<group>"; };
+		92155CD11EFA763600897F0C /* FeitianAjReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianAjReader.h; sourceTree = "<group>"; };
+		92155CD21EFA763600897F0C /* FeitianBtReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianBtReader.h; sourceTree = "<group>"; };
+		92155CD31EFA763600897F0C /* FeitianReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeitianReader.h; sourceTree = "<group>"; };
+		92155CD41EFA763600897F0C /* FJStringDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJStringDisplay.h; sourceTree = "<group>"; };
+		92155CD51EFA763600897F0C /* FloBLEReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloBLEReader.h; sourceTree = "<group>"; };
+		92155CD61EFA763600897F0C /* FloNotifications.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloNotifications.h; sourceTree = "<group>"; };
+		92155CD71EFA763600897F0C /* FloProtocolsCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloProtocolsCommon.h; sourceTree = "<group>"; };
+		92155CD81EFA763600897F0C /* FLOReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLOReader.h; sourceTree = "<group>"; };
+		92155CD91EFA763600897F0C /* FLOTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLOTag.h; sourceTree = "<group>"; };
+		92155CDA1EFA763600897F0C /* FmAudioJackDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmAudioJackDevice.h; sourceTree = "<group>"; };
+		92155CDB1EFA763600897F0C /* FmAudioJackSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmAudioJackSessionManager.h; sourceTree = "<group>"; };
+		92155CDC1EFA763600897F0C /* FmBluetoothDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmBluetoothDevice.h; sourceTree = "<group>"; };
+		92155CDD1EFA763600897F0C /* FmBluetoothSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmBluetoothSessionManager.h; sourceTree = "<group>"; };
+		92155CDE1EFA763600897F0C /* FmCustomTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmCustomTypes.h; sourceTree = "<group>"; };
+		92155CDF1EFA763600897F0C /* FmDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmDevice.h; sourceTree = "<group>"; };
+		92155CE01EFA763600897F0C /* FmErrorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmErrorManager.h; sourceTree = "<group>"; };
+		92155CE11EFA763600897F0C /* FmNdefManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmNdefManager.h; sourceTree = "<group>"; };
+		92155CE21EFA763600897F0C /* FmSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmSessionManager.h; sourceTree = "<group>"; };
+		92155CE31EFA763600897F0C /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft301u.h; sourceTree = "<group>"; };
+		92155CE41EFA763600897F0C /* FTaR530.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTaR530.h; sourceTree = "<group>"; };
+		92155CE51EFA763600897F0C /* FtBleReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtBleReader.h; sourceTree = "<group>"; };
+		92155CE61EFA763600897F0C /* FTType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTType.h; sourceTree = "<group>"; };
+		92155CE71EFA763600897F0C /* Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logging.h; sourceTree = "<group>"; };
+		92155CE81EFA763600897F0C /* NdefMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdefMessage.h; sourceTree = "<group>"; };
+		92155CE91EFA763600897F0C /* NdefRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdefRecord.h; sourceTree = "<group>"; };
+		92155CEA1EFA763600897F0C /* NFCMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFCMessage.h; sourceTree = "<group>"; };
+		92155CEB1EFA763600897F0C /* NSData+FJStringDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+FJStringDisplay.h"; sourceTree = "<group>"; };
+		92155CEC1EFA763600897F0C /* Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reader.h; sourceTree = "<group>"; };
+		92155CED1EFA763600897F0C /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInterface.h; sourceTree = "<group>"; };
+		92155CEE1EFA763600897F0C /* ReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderManager.h; sourceTree = "<group>"; };
+		92155CEF1EFA763600897F0C /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		92155CF01EFA763600897F0C /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		92155CF11EFA763600897F0C /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		92155CF21EFA763600897F0C /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winscard.h; sourceTree = "<group>"; };
+		92155CF31EFA763600897F0C /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wintypes.h; sourceTree = "<group>"; };
+		92155CF41EFA763600897F0C /* FloJackConnected150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FloJackConnected150x150.png; sourceTree = "<group>"; };
+		92155CF51EFA763600897F0C /* FloJackDisconnected150x150.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FloJackDisconnected150x150.png; sourceTree = "<group>"; };
+		92155CF61EFA763600897F0C /* libSDKClasses.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDKClasses.a; sourceTree = "<group>"; };
+		92155CF71EFA763600897F0C /* README_swift.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_swift.md; sourceTree = "<group>"; };
+		92155CF81EFA763600897F0C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		92155CF91EFA763600897F0C /* ScanSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ScanSound.caf; sourceTree = "<group>"; };
+		92155D001EFA769B00897F0C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		B716F8691EF9926200297DCB /* CnickReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CnickReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B716F86D1EF9926200297DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B716F86F1EF9926200297DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,19 +108,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B702F6ED1EF9A03100A8ECD8 /* libAudioJack.a in Frameworks */,
+				92155D011EFA769B00897F0C /* MediaPlayer.framework in Frameworks */,
 				B79F8CA21EF99A83005A61A7 /* CoreGraphics.framework in Frameworks */,
-				B79F8CA01EF99A74005A61A7 /* AudioToolbox.framework in Frameworks */,
+				92155CFC1EFA763600897F0C /* libSDKClasses.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		92155CB71EFA760200897F0C /* FlomioSDKv2.2 */ = {
+			isa = PBXGroup;
+			children = (
+				92155CB81EFA763600897F0C /* include */,
+				92155CF41EFA763600897F0C /* FloJackConnected150x150.png */,
+				92155CF51EFA763600897F0C /* FloJackDisconnected150x150.png */,
+				92155CF61EFA763600897F0C /* libSDKClasses.a */,
+				92155CF71EFA763600897F0C /* README_swift.md */,
+				92155CF81EFA763600897F0C /* README.md */,
+				92155CF91EFA763600897F0C /* ScanSound.caf */,
+			);
+			name = FlomioSDKv2.2;
+			path = FlomioSDKv2;
+			sourceTree = "<group>";
+		};
+		92155CB81EFA763600897F0C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				92155CB91EFA763600897F0C /* SDKClasses */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		92155CB91EFA763600897F0C /* SDKClasses */ = {
+			isa = PBXGroup;
+			children = (
+				92155CBA1EFA763600897F0C /* ABDHex.h */,
+				92155CBB1EFA763600897F0C /* ABTAcr1255uj1Reader.h */,
+				92155CBC1EFA763600897F0C /* ABTAcr3901us1Reader.h */,
+				92155CBD1EFA763600897F0C /* ABTBluetoothReader.h */,
+				92155CBE1EFA763600897F0C /* ABTBluetoothReaderManager.h */,
+				92155CBF1EFA763600897F0C /* ABTError.h */,
+				92155CC01EFA763600897F0C /* ACRAesTrackData.h */,
+				92155CC11EFA763600897F0C /* ACRAudioJackReader.h */,
+				92155CC21EFA763600897F0C /* ACRCRC16.h */,
+				92155CC31EFA763600897F0C /* ACRDukptReceiver.h */,
+				92155CC41EFA763600897F0C /* ACRDukptTrackData.h */,
+				92155CC51EFA763600897F0C /* ACRResult.h */,
+				92155CC61EFA763600897F0C /* ACRStatus.h */,
+				92155CC71EFA763600897F0C /* ACRTrack1Data.h */,
+				92155CC81EFA763600897F0C /* ACRTrack2Data.h */,
+				92155CC91EFA763600897F0C /* ACRTrackData.h */,
+				92155CCA1EFA763600897F0C /* AcsAjReader.h */,
+				92155CCB1EFA763600897F0C /* ACSBluetooth.h */,
+				92155CCC1EFA763600897F0C /* AcsBtReader.h */,
+				92155CCD1EFA763600897F0C /* AudioJack.h */,
+				92155CCE1EFA763600897F0C /* AudioJackErrors.h */,
+				92155CCF1EFA763600897F0C /* BleTags.h */,
+				92155CD01EFA763600897F0C /* DUKPT.h */,
+				92155CD11EFA763600897F0C /* FeitianAjReader.h */,
+				92155CD21EFA763600897F0C /* FeitianBtReader.h */,
+				92155CD31EFA763600897F0C /* FeitianReader.h */,
+				92155CD41EFA763600897F0C /* FJStringDisplay.h */,
+				92155CD51EFA763600897F0C /* FloBLEReader.h */,
+				92155CD61EFA763600897F0C /* FloNotifications.h */,
+				92155CD71EFA763600897F0C /* FloProtocolsCommon.h */,
+				92155CD81EFA763600897F0C /* FLOReader.h */,
+				92155CD91EFA763600897F0C /* FLOTag.h */,
+				92155CDA1EFA763600897F0C /* FmAudioJackDevice.h */,
+				92155CDB1EFA763600897F0C /* FmAudioJackSessionManager.h */,
+				92155CDC1EFA763600897F0C /* FmBluetoothDevice.h */,
+				92155CDD1EFA763600897F0C /* FmBluetoothSessionManager.h */,
+				92155CDE1EFA763600897F0C /* FmCustomTypes.h */,
+				92155CDF1EFA763600897F0C /* FmDevice.h */,
+				92155CE01EFA763600897F0C /* FmErrorManager.h */,
+				92155CE11EFA763600897F0C /* FmNdefManager.h */,
+				92155CE21EFA763600897F0C /* FmSessionManager.h */,
+				92155CE31EFA763600897F0C /* ft301u.h */,
+				92155CE41EFA763600897F0C /* FTaR530.h */,
+				92155CE51EFA763600897F0C /* FtBleReader.h */,
+				92155CE61EFA763600897F0C /* FTType.h */,
+				92155CE71EFA763600897F0C /* Logging.h */,
+				92155CE81EFA763600897F0C /* NdefMessage.h */,
+				92155CE91EFA763600897F0C /* NdefRecord.h */,
+				92155CEA1EFA763600897F0C /* NFCMessage.h */,
+				92155CEB1EFA763600897F0C /* NSData+FJStringDisplay.h */,
+				92155CEC1EFA763600897F0C /* Reader.h */,
+				92155CED1EFA763600897F0C /* ReaderInterface.h */,
+				92155CEE1EFA763600897F0C /* ReaderManager.h */,
+				92155CEF1EFA763600897F0C /* Tag.h */,
+				92155CF01EFA763600897F0C /* Utilities.h */,
+				92155CF11EFA763600897F0C /* utils.h */,
+				92155CF21EFA763600897F0C /* winscard.h */,
+				92155CF31EFA763600897F0C /* wintypes.h */,
+			);
+			path = SDKClasses;
+			sourceTree = "<group>";
+		};
 		B716F8601EF9926200297DCB = {
 			isa = PBXGroup;
 			children = (
-				B79F8C8F1EF99947005A61A7 /* AudioJack */,
+				92155CB71EFA760200897F0C /* FlomioSDKv2.2 */,
 				B716F86B1EF9926200297DCB /* CnickReader */,
 				B716F86A1EF9926200297DCB /* Products */,
 				B79F8C9E1EF99A74005A61A7 /* Frameworks */,
@@ -107,32 +247,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B79F8C8F1EF99947005A61A7 /* AudioJack */ = {
-			isa = PBXGroup;
-			children = (
-				B702F6E01EF9A03100A8ECD8 /* ACRAesTrackData.h */,
-				B702F6E11EF9A03100A8ECD8 /* ACRAudioJackReader.h */,
-				B702F6E21EF9A03100A8ECD8 /* ACRCRC16.h */,
-				B702F6E31EF9A03100A8ECD8 /* ACRDukptReceiver.h */,
-				B702F6E41EF9A03100A8ECD8 /* ACRDukptTrackData.h */,
-				B702F6E51EF9A03100A8ECD8 /* ACRResult.h */,
-				B702F6E61EF9A03100A8ECD8 /* ACRStatus.h */,
-				B702F6E71EF9A03100A8ECD8 /* ACRTrack1Data.h */,
-				B702F6E81EF9A03100A8ECD8 /* ACRTrack2Data.h */,
-				B702F6E91EF9A03100A8ECD8 /* ACRTrackData.h */,
-				B702F6EA1EF9A03100A8ECD8 /* AudioJack.h */,
-				B702F6EB1EF9A03100A8ECD8 /* AudioJackErrors.h */,
-				B702F6EC1EF9A03100A8ECD8 /* libAudioJack.a */,
-				B702F6EE1EF9A23300A8ECD8 /* dummy.mm */,
-				B702F6F01EF9A66800A8ECD8 /* AJDHex.h */,
-				B702F6F11EF9A66800A8ECD8 /* AJDHex.m */,
-			);
-			path = AudioJack;
-			sourceTree = "<group>";
-		};
 		B79F8C9E1EF99A74005A61A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92155D001EFA769B00897F0C /* MediaPlayer.framework */,
 				B79F8CA11EF99A83005A61A7 /* CoreGraphics.framework */,
 				B79F8C9F1EF99A74005A61A7 /* AudioToolbox.framework */,
 			);
@@ -199,8 +317,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B716F87C1EF9926200297DCB /* LaunchScreen.storyboard in Resources */,
+				92155CFB1EFA763600897F0C /* FloJackDisconnected150x150.png in Resources */,
 				B716F8791EF9926200297DCB /* Assets.xcassets in Resources */,
+				92155CFF1EFA763600897F0C /* ScanSound.caf in Resources */,
 				B716F8771EF9926200297DCB /* Main.storyboard in Resources */,
+				92155CFA1EFA763600897F0C /* FloJackConnected150x150.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,10 +332,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92155CFD1EFA763600897F0C /* README_swift.md in Sources */,
 				B716F8741EF9926200297DCB /* ViewController.m in Sources */,
+				92155CFE1EFA763600897F0C /* README.md in Sources */,
 				B716F8711EF9926200297DCB /* AppDelegate.m in Sources */,
-				B702F6F21EF9A66800A8ECD8 /* AJDHex.m in Sources */,
-				B702F6EF1EF9A23300A8ECD8 /* dummy.mm in Sources */,
 				B716F86E1EF9926200297DCB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,10 +459,16 @@
 				DEVELOPMENT_TEAM = DG779MAMM2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CnickReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AudioJack",
+					"$(PROJECT_DIR)/FlomioSDKv2",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ge.lemon.do.CnickReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -355,10 +482,16 @@
 				DEVELOPMENT_TEAM = DG779MAMM2;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CnickReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AudioJack",
+					"$(PROJECT_DIR)/FlomioSDKv2",
+				);
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = ge.lemon.do.CnickReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
